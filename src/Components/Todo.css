@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background: #88b0b8;
+  background: -webkit-linear-gradient(to right, #8c6b8c, #88b0b8);
+  background: linear-gradient(to right, #8c6b8c, #88b0b8);
+}
+
+h1 {
+  margin: 0px;
+  margin-bottom: 15px;
+  color: white;
+}
+h2 {
+  margin: 0px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.input-section {
+  background-color: white;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px #505e5a61;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
+}
+.input-section input {
+  border-radius: 5px;
+  border: 1px solid rgb(226, 226, 226);
+  width: 90%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  color: #5a5a5a;
+  font-weight: 900;
+  font-size: medium;
+}
+.add {
+  text-align: center;
+  cursor: pointer;
+  font-size: larger;
+  font-weight: 900;
+  color: rgb(114, 113, 113);
+  padding-right: 8px;
+}
+input::placeholder {
+  color: rgba(97, 97, 97, 0.596);
+}
+ul {
+  text-align: left;
+  padding: 0px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+ul li {
+  display: flex;
+  list-style: none;
+  background-color: #ffffff61;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  color: #5a5a5a;
+  font-weight: 900;
+}
+.checkbox {
+  margin-left: -6px;
+  margin-right: 6px;
+}
+
+.delete {
+  cursor: pointer;
+  text-align: right;
+  flex: 1;
+}
+.clearlist {
+  width: 400px;
+  height: 48px;
+  background-color: #ffffff61;
+  color: #5a5a5a;
+  font-weight: 900;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.main {
+  display: flex;
+  height: 500px;
+}
+.add-task {
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  margin-right: 0px;
+}
+.completed-task {
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.completed-task ul {
+  max-height: 360px;
+}
+.header {
+  text-align: center;
+  margin-top: 50px;
+}
+.footer {
+  text-align: center;
+  margin-top: 60px;
+}
